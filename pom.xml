@@ -59,10 +59,13 @@
 	</dependencyManagement>
 
 	<modules>
+		<module>config-server</module>
+
 		<module>service-registration-and-discovery-service</module>
 		<module>service-registration-and-discovery-client</module>
 		<module>licensing-service</module>
 		<module>simpleservice</module>
+
 	</modules>
 
 	<repositories>
