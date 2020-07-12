@@ -1,0 +1,6 @@
+version: '2'
+services:
+  licencingservice:
+    image: test/tmx-licencing-service:chapter2
+    ports:
+      - "8080:8080"
